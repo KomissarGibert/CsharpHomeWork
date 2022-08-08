@@ -4,3 +4,15 @@
 -3 -> нет
 7 -> нет
 */
+
+Console.WriteLine("Введите число");
+int N = 0;
+N = Convert.ToInt32(Console.ReadLine());
+if (N % 2 == 0)
+{
+    Console.WriteLine("YES");
+}
+else
+{
+    Console.WriteLine("NO");
+}
