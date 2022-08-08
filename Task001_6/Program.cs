@@ -10,9 +10,11 @@ int N = 0;
 N = Convert.ToInt32(Console.ReadLine());
 if (N % 2 == 0)
 {
-    Console.WriteLine("YES");
+    Console.Write(N + " ");
+    Console.Write("Чётное число");
 }
 else
 {
-    Console.WriteLine("NO");
+    Console.Write(N + " ");
+    Console.Write("Нечётное число");
 }
