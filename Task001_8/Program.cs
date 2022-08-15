@@ -5,11 +5,22 @@
 */
 
 Console.WriteLine("Введите число");
-int N = 0;
-N = Convert.ToInt32(Console.ReadLine());
+//int N = 0;
+int N = Convert.ToInt32(Console.ReadLine());
 int score = 1;
+if(N>0)
+{
        while (score < N)
        {
         Console.Write(score+1 +" ");
         score+= 2;
        }
+}
+if(N<0)
+{
+       while (score > N)
+       {
+        Console.Write(score-1 +" ");
+        score-= 2;
+       }
+}
