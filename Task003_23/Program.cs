@@ -5,6 +5,7 @@
 Console.WriteLine("Введите целое число");
 int n = Convert.ToInt32(Console.ReadLine()); 
 int index = 1;
+if (n>0)
 while (index <= Math.Abs(n))
 {
     Console.Write(index * index * index);
